@@ -1,4 +1,4 @@
-import RepositoryJogos from '../repository/jogos.js'
+import RepositoryJogos from '../repository/partidas.js'
 
 class ServiceJogos {
 

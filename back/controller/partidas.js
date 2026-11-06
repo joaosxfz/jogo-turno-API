@@ -1,4 +1,4 @@
-import ServiceJogos from '../service/jogos.js'
+import ServiceJogos from '../service/partidas.js'
 
 class ControllerJogos {
 

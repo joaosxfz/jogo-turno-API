@@ -1,4 +1,4 @@
-import jogos from "../model/jogos.js"
+import jogos from "../model/partidas.js"
 
 class RepositoryJogos {
 
