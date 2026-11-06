@@ -1,0 +1,31 @@
+{
+  "name": "jogo-turno-api",
+  "version": "1.0.0",
+  "description": "terceira prova Renan",
+  "homepage": "https://github.com/joaosxfz/jogo-turno-API#readme",
+  "bugs": {
+    "url": "https://github.com/joaosxfz/jogo-turno-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaosxfz/jogo-turno-API.git"
+  },
+  "license": "ISC",
+  "author": "joaosxfz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "json": "^11.0.0",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8",
+    "token": "^0.1.0",
+    "web": "^0.0.2"
+  }
+}
