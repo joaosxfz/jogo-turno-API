@@ -16,6 +16,16 @@ class ControllerGames {
         const resultado = ServiceGame.Curar()
         res.send(resultado)
     }
+
+    Status(req, res) {
+        const resultado = ServiceGame.Status()
+        res.send(resultado)
+    }
+
+    Iniciar(req, res) {
+        const resultado = ServiceGame.Iniciar()
+        return resultado
+    }
 }
 
 export default new ControllerGames()

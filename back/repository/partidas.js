@@ -18,7 +18,7 @@ class RepositoryJogos {
         const jogo = await jogos.findByPk(id)
 
         if (!jogo) {
-            throw new Error("Usuário não encontrado")
+            throw new Error("Partida não encontrado")
         }
 
         jogo.descricao = descricao || jogo.descricao
@@ -32,7 +32,7 @@ class RepositoryJogos {
         const jogo = await jogos.findByPk(id)
 
         if (!jogo) {
-            throw new Error("Usuário não encontrado")
+            throw new Error("Partida não encontrado")
         }
 
         await jogo.destroy()
