@@ -1,4 +1,4 @@
-import RepositoryPartidas from '../repository/partidas.js'
+import RepositoryGame from '../repository/game.js'
 
 class ServiceGames {
     constructor() {

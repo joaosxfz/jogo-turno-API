@@ -15,7 +15,7 @@ function App() {
         <Route path='/jogo' element={<Jogo />} />
       </Routes>
 
-      <Footer />
+
     </>
   )
 }

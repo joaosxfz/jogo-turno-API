@@ -7,7 +7,8 @@ function Header() {
                 <li><Link to="/">
                     <button>Home</button>
                 </Link></li>
-                <li><Link to="/">
+
+                <li><Link to="/jogo">
                     <button>Jogo</button>
                 </Link></li>
             </ul>
